@@ -1,0 +1,485 @@
+.alert {
+    background-color: rgba(221, 79, 5, 0.05);
+    border-bottom: 1px solid $color-secondary;
+    padding: 2rem;
+    
+        
+
+    &__heading {
+        color: $color-secondary;
+        margin-right: 5rem;
+        margin-left: 5rem;
+        padding-bottom: .3rem;
+        
+    }
+
+    &__paragraph {
+       margin-right: 5rem;
+       margin-left: 5rem;
+       font-weight: 600;
+    }
+}
+
+.home-service {
+    padding: 7rem 0 3.1rem;
+    background-color: $color-tertiary-2;
+    position: relative;
+    
+    
+
+    &__container {
+        width: 100%;
+        //padding-left: 6rem;
+       // padding-right: 6rem;
+        margin-right: auto;
+        margin-left: auto; 
+        
+        
+    }
+
+    &__intro {
+        text-align: center;
+        padding-right: 7rem;
+        padding-left: 7rem;
+    }
+
+    &__heading{
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+        font-weight: 600;
+        color: $color-primary-2;
+    }
+
+    &__paragraph {
+        font-size: 1.2rem;
+        margin-top: 0;
+        //margin-bottom: 1.5rem;
+        color: $color-primary-2;
+    }   
+    
+}
+
+.home-service  .row-service-card {
+    margin-top: 29px;
+}
+.service {
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding-right: .9rem;
+    padding-left: .9rem;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    min-width: 0;
+    background-color: transparent;
+    box-shadow: none;
+    word-wrap: break-word;
+    //flex: 1 1 auto;
+    cursor: pointer;
+    height: 25rem;
+    
+
+    &__picture {
+
+        background-position: 50%;
+        background-repeat: no-repeat;
+        display: block;
+        width: 100%;
+        height: 100%;
+        
+       
+
+        &--1 {
+            background-image: url(../image/couple.jpg);
+        }
+    
+
+        &--2 {
+        background-image: url(../image/mountain2.jpg);
+        }
+
+        &--3 {
+        background-image: url(../image/couple.jpg);
+        }
+
+        &--4 {
+        background-image: url(../image/mountain2.jpg);
+        }
+
+        &__img {
+            background-size: cover;
+            width: auto;
+            height: auto;
+            display: block;
+            
+        }
+    }    
+
+    &__heading {
+        //padding: 1.4rem 0;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 600;
+        line-height: 1.1;
+        color: $color-primary-2;
+        transition: all .2s ease-in-out;
+    }
+
+    &__text {
+        font-size: 1rem;
+        line-height: 1.4;
+        color: $color-primary-1;
+        margin-top: 0;
+        
+
+        &:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__link {
+        padding: 0 0 1.25rem;
+        border-top: 0 solid rgba(0, 0, 0, .125);
+        text-decoration: none;
+        color:$color-secondary;
+        fill: $color-secondary;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all .2s ease-in-out;
+    }
+
+    .fa-angle-right {
+        margin-left: .7rem;
+        font-weight: 600;
+    }
+}
+
+.home-promo {
+    padding: 5.6rem 0;
+
+    &__heading {
+        font-size: 1.1rem;
+        font-weight: 700;
+        margin-bottom: 2.1rem;
+        color: $color-primary-2;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: .9rem;
+        padding-right: .9rem;
+    }
+
+    .col-card {
+        box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+        color: $color-primary-1;
+        border: 1px solid $color-tertiary-3;
+        transition: all .2s ease-in-out;
+        background-color: $color-primary;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        cursor: grab;
+
+        &__img {
+
+            width: 100%;
+            align-items: center;
+            margin-bottom: 1rem;
+            display: flex;
+
+            img {
+              width: 100%;
+              height: 5rem;
+            }
+        }
+    }
+
+    .col-card--2 {
+        background-image: url(../image/butterfly-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .col-card {
+        height: 14.2rem;  
+        padding: 0 .8rem;
+        margin: .3rem 0;
+
+        &__text {
+            color: $color-primary-1;
+            margin-top: 0rem;
+            margin-bottom: 1.5rem;
+            font-size: .8rem;
+            padding-right: 1rem;
+            padding-left: 1rem;
+            padding-top: .3rem;
+        }
+
+        &__footer {
+            padding: 0 .8rem;
+        }
+
+        &__heading {
+            margin-top: 1rem;
+            padding: 0 1rem;
+            font-size: 3rem;
+            font-family:  serif;
+            color: $color-secondary;
+        }
+    }
+
+    .rates-widget {
+        padding: 1.25rem 1.2rem .5rem;  
+        background-color: $color-primary;
+        border: 1px solid $color-border;
+        margin-left: .6rem;
+        margin-top: .3rem;
+        
+        .country-element {
+            display: flex;
+            text-align: center;
+            font-size: .8rem;
+            color: $color-primary-1;
+            font-weight: 700;
+
+            .flag-text {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .price-element {
+        font-size: .75rem;
+    }
+
+    .rates-widget .rates-table {
+        width: 100%;
+        table-layout: auto;
+    }
+
+    .rates-widget .rates-table th {
+        color: $color-secondary;
+        font-weight: 400;
+        font-size: .8rem;
+        padding-bottom: .37rem;
+    }
+
+    th {
+        text-align: inherit;
+    }
+
+    .rates-widget .rates-table td {
+        font-size: .8rem;
+        padding: .5rem 0;
+    }
+
+ .rates-widget .rates-table tr {
+
+        &:not(:last-child) {
+            border-bottom: 1px solid $color-border;
+        }
+    }
+
+    .rates-widget h4 {
+        font-size: 1rem;
+        color: $color-font;
+        font-weight: 700;
+        margin-bottom: .4rem;
+    }
+
+    table {
+        border-collapse: collapse;
+    }
+}
+
+.promo-card {
+    padding: 4.6rem 0 4.8rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+
+.home-promo .promo-card .row {
+    margin-right: -.9rem;  //.93
+    margin-left: -.9rem;   //.93
+}
+
+.promo-card .row {
+    margin: 0;
+}
+
+.home-promo .promo-card .row-card {
+    margin-right: -.8rem;
+    margin-left: -.8rem;
+}
+
+.col-card__content a {
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: .8rem;
+    padding: 10px 24px 12px 26px;
+    transition: all .2s ease-in-out;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    color: $color-primary;
+    fill: $color-primary;
+
+    &:hover {
+        background-color: $color-secondary-1;
+        
+    }
+}
+
+.btn-primary {
+    background-color: $color-secondary;
+    border-color: $color-secondary;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn-welcome-tour {
+    position: fixed;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    padding: .8rem 1.1rem;
+    border-radius: 3.1rem;
+    max-width: 3.1rem;
+    height: 3.1rem;
+    transition: all .4s ease-in-out;
+    z-index: 1000;
+    overflow: hidden; 
+}
+
+.btn-welcome-tour:hover{
+    max-width: 18.7rem;
+}
+
+.btn-welcome-tour:hover .text {
+   visibility: visible;
+   opacity: 1;
+   z-index: 1000;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-welcome-tour .text  {
+    color: $color-primary; 
+    visibility: hidden;
+    opacity: 0;
+    font-size: .9rem;
+    font-weight: 600;
+}
+    
+.icon {
+    display: inline-block;
+}
+
+.btn-welcome-tour .icon {
+    margin-top: 3px;
+    margin-right: .93rem;
+}  
+
+.flag-icon img {
+    width: 1.4rem;
+    height: .65rem;
+    margin-right: .6rem;
+    margin-left: .3rem;
+}
+
+.home-promo .shares-widget {
+    margin-left: .6rem;
+    margin-top: .9rem;
+}
+
+.shares-widget {
+    padding: 1.5rem 1.6rem 1.3rem;
+    background-color: $color-primary;
+    border: 1px solid $color-border;
+    img {
+        width: .9rem;
+        height: .9rem;
+        border-radius: 50%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+
+.fa-long-arrow-down {
+   font-size: .6rem;
+   color: $color-secondary;
+   fill: $color-secondary;
+}
+
+
+.shares-widget h4{
+    color: $color-font;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.shares-widget .share-element-last {
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    padding-top: .5rem;
+} 
+
+.shares-widget .share-element-first {
+    margin-bottom: 1rem;
+    width: 45%;
+}
+
+ .share-element-first .price-element {
+    font-size: 1.4rem;
+}
+
+.share-element-last .price-element {
+    font-size: 1.4rem;
+}
+.price-element .price-symbol {
+    font-size: .9rem;
+    padding: 0;
+    margin: 0;
+}
+
+.percentage-element {
+    font-size: .7rem;
+    font-weight: 400;
+}
+
+.shares-widget .disclaimer-text a {
+    font-size: .8rem;
+    line-height: .7rem;
+    margin-right: .37rem;
+    padding-right: .37rem;
+    display: inline-block;
+   
+    text-align: left;
+    text-decoration: none;
+    color: $color-primary-1;
+    cursor: pointer;
+
+    &:not(:last-child) {
+        border-right: 1px solid $color-border-1;
+    }
+
+    &:hover {
+        border-bottom: 1px solid $color-border-1;
+    }
+}

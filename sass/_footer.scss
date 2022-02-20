@@ -1,0 +1,244 @@
+.footer-services {
+    padding: 5rem 0 1.3rem;
+    background-image: linear-gradient(#fff, #fafafa);
+    text-align: center;
+
+    &__icon {
+        width: 3.37rem;
+        height: 3.37rem;
+        margin: 0 auto 0.8rem;
+        display: block;
+        background: $color-tertiary-3;
+        border-radius: 50%;
+        padding: .6rem;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+            color: $color-primary;
+            fill: transparent;
+            background-color: $color-secondary;  //transparent
+            transition: all .2s ease-in-out;
+        }
+
+        .fa {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.footer-services  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.footer-services li {
+    list-style: none;
+}
+
+.footer-services  a {
+    display: block;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: .85rem;
+    font-weight: 400;
+    color: $color-shares-1;
+}
+
+.footer-navigation {
+    padding: 3.3rem 0 2.6rem;
+    text-align: left;
+    
+}
+
+.navy {
+    margin-right: 6rem;
+    margin-left: 6rem;
+    padding-right: .9rem;
+    padding-left: .9rem;
+}
+
+  .footer-navigation h5 {
+    //position: relative;
+    font-size: .8rem;
+    font-weight: 600;
+    color: $color-primary-2;
+    margin-bottom: 1rem;
+}
+
+.footer-navigation .col-footer-nav ul {
+    list-style: none;
+    margin: 0;
+    
+}
+
+.footer-navigation .col-footer-nav li a{
+    text-decoration: none;
+    font-size: .7rem;
+    font-weight: 300;
+    background-color: transparent;
+    margin-bottom: .7rem;
+    color: $color-border-1;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-secondary;
+    }
+}  
+
+.footer-navigation .col-footer-nav ul li {
+    margin-bottom: 1.2rem;
+    line-height: .7rem;
+}
+
+.footer-connect {
+    padding-bottom: 2.7rem;
+
+    .line {
+        border-top: 1px solid $color-tertiary-3;
+        padding-top: 2rem;
+    }
+
+    .no-gutter {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .footer-phone {
+        position: relative;
+        margin-left: 1.8rem;
+        font-size: .9rem;
+        font-weight: 700;
+    }
+
+    .footer-phone ul {
+        list-style: none;
+    }
+
+    .footer-phone li a{
+        
+        text-decoration: none;
+        color:$color-primary-1;
+        cursor: pointer;
+    }
+
+    .fa-whatsapp {
+        height: 1.5rem;
+        width: 1.5rem;
+        font-size: 1.56rem;
+        font-weight:400;
+        background-color: limegreen;
+        color: $color-primary;
+        margin: 1rem;
+        border-radius: 5px;
+    }
+}
+
+.footer-connect .footer-phone li {
+    display: inline-block;
+    padding: 0 1rem;
+    margin-top: .8rem;
+
+}
+
+.footer-logo {
+    font-weight: 700;
+    color: $color-primary-2;
+    
+}
+
+.footer-logo h1 span{
+    color: $color-secondary-1;
+    
+    
+}
+
+.footer-text {
+    font-size: .9rem;
+   padding-left: .8rem;
+   line-height: .1rem;
+   color: $color-primary-1;
+}
+
+.footer-base {
+    background: $color-footer;
+    color: $footer-color-1;
+    font-size: .8rem;
+    font-weight: 500;
+    padding: 1.8rem 0 3rem;
+    display: block;
+    position: relative;
+
+    .footer-social ul {
+        display: inline-flex;
+       // flex-direction: row;
+        //justify-content: flex-end;
+        list-style: none;
+        
+        
+    }
+
+    .fa {
+        font-size: 1rem;
+        font-weight: 500;
+        color: $color-footer;
+    }
+
+    .footer-copyright {
+        margin-top: 5px;
+    }
+}
+
+.footer-base .footer-social {
+    margin-left: 9rem;
+}
+
+.footer-base .footer-social li {
+    
+    &:not(:last-child) {
+        margin-right: 1rem;
+    }
+}
+
+.footer-base .footer-social li a {
+    height: 1.68rem;
+    width: 1.68rem;
+    border-radius: 50%;
+    display: block;
+    opacity: .5;
+    padding: 5px;
+    fill:$color-footer;
+    background-color: $color-primary;
+    cursor: pointer;
+}
+    
+.footer-base .copyright {
+    display: inline-block;
+}
+
+.footer-base .container {
+    display: inline-flex;
+}
+
+.footer-base .footer-copyright ul {
+    list-style: none;
+    margin-left: 3rem;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.footer-base .footer-copyright li a {
+    text-decoration: none;
+    color: $footer-color-1;
+    cursor: pointer;
+    font-size: .8rem;
+}
+.footer-base .footer-copyright ul li {
+    
+    &:not(:last-child) {
+        margin-right: 1rem;
+    }
+}

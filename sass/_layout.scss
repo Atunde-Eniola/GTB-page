@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  position: relative;
+    
+  .primary-logo { 
+  position: absolute;
+    right: 6.25rem;
+    top: 11.3rem;
+
+    &__logo {
+      height: 5rem;
+      width: auto;
+    }
+  }   
+}
+
+.row {
+  max-width: 114rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  margin-left: -.9rem;
+  margin-right: -.9rem;
+
+  .col-1-of-4 {
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    min-height: 1px;
+  }
+} 
